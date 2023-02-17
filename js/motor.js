@@ -17,7 +17,7 @@ function peticionServidor1(form1, b1, d1, servidor1)
         b1.disabled = false;        
         document.getElementById(d1.id).innerHTML = ajax1.responseText;
     });
-    ,
+    
 
     // Error en el envio de los datos
     ajax1.addEventListener("error", function(event) {
